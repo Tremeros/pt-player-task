@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pt-player-task/static/css/main.95d0f915.chunk.css",
+    "main.js": "/pt-player-task/static/js/main.087320bf.chunk.js",
+    "main.js.map": "/pt-player-task/static/js/main.087320bf.chunk.js.map",
+    "runtime-main.js": "/pt-player-task/static/js/runtime-main.0a915d02.js",
+    "runtime-main.js.map": "/pt-player-task/static/js/runtime-main.0a915d02.js.map",
+    "static/js/2.d1e4d18f.chunk.js": "/pt-player-task/static/js/2.d1e4d18f.chunk.js",
+    "static/js/2.d1e4d18f.chunk.js.map": "/pt-player-task/static/js/2.d1e4d18f.chunk.js.map",
+    "index.html": "/pt-player-task/index.html",
+    "precache-manifest.4f76f8b333617bcb382919420b537300.js": "/pt-player-task/precache-manifest.4f76f8b333617bcb382919420b537300.js",
+    "service-worker.js": "/pt-player-task/service-worker.js",
+    "static/css/main.95d0f915.chunk.css.map": "/pt-player-task/static/css/main.95d0f915.chunk.css.map",
+    "static/js/2.d1e4d18f.chunk.js.LICENSE.txt": "/pt-player-task/static/js/2.d1e4d18f.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/pt-player-task/static/media/unreleased_cover.a2195768.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0a915d02.js",
+    "static/js/2.d1e4d18f.chunk.js",
+    "static/css/main.95d0f915.chunk.css",
+    "static/js/main.087320bf.chunk.js"
+  ]
+}
