@@ -1,0 +1,41 @@
+.progres {
+  grid-area: progres;
+  height: 140px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  transform: rotate3d(0, 1, 0, 180deg);
+
+  &-lines {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+  }
+
+  .line {
+    width: 60vw;
+    height: 1px;
+    background: turquoise;
+    z-index: 100;
+  }
+  .progres-line {
+    position: absolute;
+    width: 60vw;
+    height: 5px;
+    border-radius: 5px;
+    background: turquoise;
+    z-index: 100;
+    align-self: flex-start;
+    right: 345px;
+    bottom: 67px;
+
+    box-shadow: 0px 0px 6px aqua;
+  }
+
+  &-time-left {
+    transform: rotate3d(0, 1, 0, 180deg);
+    color: white;
+    font-size: 1.5rem;
+  }
+}

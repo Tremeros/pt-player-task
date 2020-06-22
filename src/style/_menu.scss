@@ -1,0 +1,70 @@
+.menu {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: -100vw;
+  background: rgba(33, 28, 54, 0.9);
+  z-index: 100;
+  transition: all 650ms cubic-bezier(1, 0, 0, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .album-cover {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50px;
+    background: url("../images/unreleased_cover.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  &-song-title {
+    font-size: 3rem;
+    color: white;
+    margin-top: 0.8rem;
+    font-weight: 800;
+  }
+
+  &-author {
+    font-size: 1rem;
+    color: lighten($color, 40);
+    opacity: 0.5;
+    font-family: "Open Sans";
+  }
+
+  .menu-dots,
+  .add-to-playlist,
+  .show-album,
+  .share {
+    margin: 1rem 0;
+  }
+
+  &-dots {
+    display: flex;
+
+    justify-content: space-between;
+    width: 3rem;
+    height: 3rem;
+
+    div {
+      width: 5px;
+      height: 5px;
+      border-radius: 50px;
+      background: white;
+    }
+  }
+
+  a {
+    color: white;
+    font-size: 2rem;
+    font-family: "Open Sans";
+    font-weight: 400;
+  }
+}
+
+.open {
+  right: 0;
+}

@@ -1,0 +1,25 @@
+.footer {
+  grid-area: footer;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 0;
+  z-index: 150;
+
+  &-menu {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+
+  &-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-grow: 0.5;
+  }
+}
